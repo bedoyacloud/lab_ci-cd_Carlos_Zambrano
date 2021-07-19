@@ -4,7 +4,7 @@ from boto3.dynamodb.conditions import Key
 
 DYNAMO_BD = os.environ['DYNAMO_BD']
 
-# Lore, aleja, walter, andres, geny, juand, juan, hernan, lucy, julian y toooooodos
+# Soy Carlos Bedoya practicanco con cicd, dynamo, lambda y codepipeline
 
 class DynamoAccessor:
     def __init__(self, dynamo_table):
